@@ -1,7 +1,7 @@
 Package: clr
 Type: Package
 Title: Curve Linear Regression via Dimension Reduction
-Version: 0.1.0
+Version: 0.1.1
 Author: Amandine Pierrot 
     with contributions and/or help from Qiwei Yao, Haeran Cho, Yannig Goude and 
     Tony Aldon.
@@ -21,6 +21,6 @@ RoxygenNote: 6.1.1
 Depends: R (>= 2.10)
 Imports: magrittr, lubridate, dplyr, stats
 NeedsCompilation: no
-Packaged: 2018-11-28 23:16:59 UTC; amandinepierrot
+Packaged: 2019-01-11 16:07:52 UTC; amandinepierrot
 Repository: CRAN
-Date/Publication: 2018-12-03 12:12:44 UTC
+Date/Publication: 2019-01-11 16:20:03 UTC

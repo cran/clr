@@ -12,6 +12,8 @@
 #'
 #' @return An object of class \code{clrdata} with one function a row. As it
 #' inherits the \code{matrix} class, all \code{matrix} methods remain valid.
+#' If time-dates are missing in x, corresponding NA functions are added by
+#' \code{clrdata} so that time sequence is preserved between successive rows.
 #' @import magrittr dplyr
 #' @importFrom lubridate is.POSIXct date
 #'
@@ -62,7 +64,7 @@ clrdata <- function(x, order_by, support_grid) {
   df <- df %>%
     dplyr::mutate(date = lubridate::date(order_by)) %>%
     dplyr::group_by(date) %>%
-    dplyr::mutate(n_instants = dplyr::n_distinct(order_by)) %>%
+    dplyr::mutate(n_instants = dplyr::n()) %>%
     dplyr::ungroup() %>%
     dplyr::filter(n_instants == nu)
 
