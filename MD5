@@ -1,6 +1,6 @@
-01db12d97f2d21fb028b9fa1ce456f90 *DESCRIPTION
+b9812e94af025942a4fbc7e5c2be1b88 *DESCRIPTION
 c67367f7838ee9e1d88b30281c50b0a8 *NAMESPACE
-d225465c9138e9a038c335646cc217c2 *NEWS.md
+a7676e343c2e341b3186557edb23a230 *NEWS.md
 2619180a72e6b2b7603d3c7bcdf0ed75 *R/clr-package.R
 53976e5078a9d989be158ffdf1c8952c *R/clr.R
 eb27dc3f946faea379445d78f4edad31 *R/clust_test-data.R
@@ -9,13 +9,10 @@ eb27dc3f946faea379445d78f4edad31 *R/clust_test-data.R
 df36d404b4014898f5696138d80cdc6f *R/manage-data.R
 b06be06e6feddce3d8dce026493abdf5 *R/predict-clr.R
 b13d9ebee0b468c94549557d761e0476 *README.md
-9c1e724bff6d6749f50681e32622484a *data/clust_test.RData
-cdeb76cb50b7faf7be4256cf72baeffd *data/clust_test.rda
-a2479f36d3388daa16ee802112c191ae *data/clust_train.RData
-c67ec88653bc25bf1dcb65a96f42f579 *data/clust_train.rda
+52f120257e08b623ac42df0631b5bf12 *data/clust_test.rda
+24ab2f6c1fbc7106767775cf8f4d1b44 *data/clust_train.rda
 2f2c01815f3ec9735a4c5a5c538ffb5a *data/datalist
-0bdbf6044f6ca062bccec3dc28838e4a *data/gb_load.RData
-dd6d1e05802a2e75a81b16530bc432dc *data/gb_load.rda
+24e915b7c7dd0cd18b2ba1ee4f0efff8 *data/gb_load.rda
 f2b9a4928d66b5dc8fe2040ec213985e *man/clr-package.Rd
 d14d3a197e6c901a0b9881f7111eb810 *man/clr.Rd
 270010b5c50527ca73d809fca15de7d8 *man/clrdata.Rd
