@@ -5,9 +5,13 @@ export(clr)
 export(clrdata)
 import(dplyr)
 import(magrittr)
-importFrom(lubridate,date)
-importFrom(lubridate,is.POSIXct)
-importFrom(stats,cov)
-importFrom(stats,lm)
-importFrom(stats,sd)
-importFrom(stats,var)
+importFrom(lubridate,
+  date,
+  is.POSIXct
+)
+importFrom(stats,
+  cov,
+  lm,
+  sd,
+  var
+)

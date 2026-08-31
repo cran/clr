@@ -4,8 +4,14 @@
 \alias{predict.clr}
 \title{Prediction from fitted CLR model(s)}
 \usage{
-\method{predict}{clr}(object, newX = NULL, newclust = NULL,
-  newXmean = NULL, simplify = FALSE, ...)
+\method{predict}{clr}(
+  object,
+  newX = NULL,
+  newclust = NULL,
+  newXmean = NULL,
+  simplify = FALSE,
+  ...
+)
 }
 \arguments{
 \item{object}{A fitted \code{clr} object produced by \code{clr()}.}

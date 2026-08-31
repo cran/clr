@@ -4,7 +4,8 @@
 \name{gb_load}
 \alias{gb_load}
 \title{Electricity load from Great Britain}
-\format{A data frame with 105216 rows and 7 variables: \describe{
+\format{
+A data frame with 105216 rows and 7 variables: \describe{
   \item{SETTLEMENT_DATE}{date, the time zone being Europe/London}
   \item{SETTLEMENT_PERIOD}{time of the day}
   \item{TIMESTAMP}{date-time, the time zone being Europe/London}
@@ -14,10 +15,11 @@
   \item{MV}{percentage of missing values when averaging over weather stations,
   depending on the weight of the station}
   \item{DAY_TYPE}{type of the day of the week, from 1 for Sunday to 7 for
-  Saturday, 8 being banking holidays}}}
+  Saturday, 8 being banking holidays}}
+}
 \source{
-\href{http://www2.nationalgrid.com/UK/Industry-information/Electricity-transmission-operational-data/Data-Explorer/}{National Grid}\cr
-\href{https://gis.ncdc.noaa.gov/maps/ncei/cdo/alltimes}{National Centers for Environmental Information}
+\href{https://connecteddata.nationalgrid.co.uk}{National Grid}\cr
+\href{https://www.ncei.noaa.gov/maps/alltimes/}{National Centers for Environmental Information}
 }
 \usage{
 gb_load

@@ -1,10 +1,15 @@
 Package: clr
 Type: Package
 Title: Curve Linear Regression via Dimension Reduction
-Version: 0.1.2
-Author: Amandine Pierrot 
-    with contributions and/or help from Qiwei Yao, Haeran Cho, Yannig Goude and 
-    Tony Aldon.
+Version: 0.1.3
+Authors@R: c(
+    person("Amandine", "Pierrot", email = "amandine.m.pierrot@gmail.com", 
+    role = c("cre", "aut")),
+    person("Qiwei", "Yao", role = "ctb"),
+    person("Haeran", "Cho", role = "ctb"),
+    person("Yannig", "Goude", role = "ctb"),
+    person("Tony", "Aldon", role = "ctb"),
+    person("EDF", role = c("cph", "fnd")))
 Maintainer: Amandine Pierrot <amandine.m.pierrot@gmail.com>
 Copyright: EDF R&D 2017
 Description: A new methodology for linear regression with both curve response 
@@ -17,10 +22,16 @@ Description: A new methodology for linear regression with both curve response
 License: LGPL (>= 2.0)
 Encoding: UTF-8
 LazyData: true
-RoxygenNote: 6.1.1
 Depends: R (>= 2.10)
 Imports: magrittr, lubridate, dplyr, stats
+Config/roxygen2/version: 8.1.0
 NeedsCompilation: no
-Packaged: 2019-07-10 10:42:17 UTC; amandinepierrot
+Packaged: 2026-08-31 17:10:45 UTC; amcp23
+Author: Amandine Pierrot [cre, aut],
+  Qiwei Yao [ctb],
+  Haeran Cho [ctb],
+  Yannig Goude [ctb],
+  Tony Aldon [ctb],
+  EDF [cph, fnd]
 Repository: CRAN
-Date/Publication: 2019-07-29 09:00:02 UTC
+Date/Publication: 2026-08-31 20:50:03 UTC

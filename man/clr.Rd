@@ -4,9 +4,15 @@
 \alias{clr}
 \title{Curve Linear Regression via dimension reduction}
 \usage{
-clr(Y, X, clust = NULL, qx_estimation = list(method = "pctvar", param =
-  0.999), ortho_Y = TRUE, qy_estimation = list(method = "pctvar", param
-  = 0.999), d_estimation = list(method = "cor", param = 0.5))
+clr(
+  Y,
+  X,
+  clust = NULL,
+  qx_estimation = list(method = "pctvar", param = 0.999),
+  ortho_Y = TRUE,
+  qy_estimation = list(method = "pctvar", param = 0.999),
+  d_estimation = list(method = "cor", param = 0.5)
+)
 }
 \arguments{
 \item{Y}{An object of class \code{clrdata} or \code{matrix}, of the response
@@ -21,7 +27,7 @@ curves (one curve a row).}
 \item{qx_estimation}{A list containing both values for 'method' (among
 'ratio', 'ratioM', 'pctvar', 'fixed') and for 'param' (depending on the
 selected method), in order to choose how to estimate the dimension of X (in
-the sense that its Karhunen-Lo\`{e}ve decomposition has qx terms only.}
+the sense that its Karhunen-Loève decomposition has qx terms only.}
 
 \item{ortho_Y}{If TRUE then Y is orthogonalized.}
 

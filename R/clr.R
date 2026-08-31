@@ -16,7 +16,7 @@
 #' @param qx_estimation A list containing both values for 'method' (among
 #' 'ratio', 'ratioM', 'pctvar', 'fixed') and for 'param' (depending on the
 #' selected method), in order to choose how to estimate the dimension of X (in
-#' the sense that its Karhunen-Lo\`{e}ve decomposition has qx terms only.
+#' the sense that its Karhunen-Loève decomposition has qx terms only.
 #' @param ortho_Y If TRUE then Y is orthogonalized.
 #' @param qy_estimation Same as for qx_estimation, if ortho_Y is set to TRUE.
 #' @param d_estimation A list containing both values for 'method' (among
@@ -88,7 +88,7 @@ clr <- function(Y, X, clust = NULL,
                 d_estimation = list(method = 'cor',
                                     param = 0.5)) {
 
-  # Conditions on data trains
+  # Conditions on data training sets
   if (!is.matrix(Y) | !is.matrix(X)) {
     stop('Y and X should be matrices')
   }

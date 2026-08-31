@@ -4,9 +4,11 @@
 \name{clust_train}
 \alias{clust_train}
 \title{Electricity load example: clusters on train set}
-\format{A list of length 14: \describe{
+\format{
+A list of length 14: \describe{
   14 clusters of loads, depending on both daily and seasonal classification,
-  banking holidays being removed}}
+  banking holidays being removed}
+}
 \usage{
 clust_train
 }

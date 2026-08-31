@@ -19,6 +19,6 @@
 #'   \item{DAY_TYPE}{type of the day of the week, from 1 for Sunday to 7 for
 #'   Saturday, 8 being banking holidays}}
 #' @source
-#' \href{http://www2.nationalgrid.com/UK/Industry-information/Electricity-transmission-operational-data/Data-Explorer/}{National Grid}\cr
-#' \href{https://gis.ncdc.noaa.gov/maps/ncei/cdo/alltimes}{National Centers for Environmental Information}
+#' \href{https://connecteddata.nationalgrid.co.uk}{National Grid}\cr
+#' \href{https://www.ncei.noaa.gov/maps/alltimes/}{National Centers for Environmental Information}
 'gb_load'
